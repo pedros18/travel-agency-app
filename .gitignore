@@ -1,0 +1,63 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependegit init
+                        git add .
+                        git commit -m "Initial commit"
+                        git remote add origin https://github.com/yourusername/your-repo-name.git
+                        git push -u origin main  # or master
+ncies
+.melos_tool/
+generated_plugin_registrant.dart
+
+# Android related
+android/.gradle/
+android/captures/
+android/.idea/
+android/local.properties
+
+# iOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/.dart_tool/
+ios/.idea/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.xcsettings
+*.pbxuser
+
+# VS Code
+.vscode/
+
+# macOS related
+macos/Flutter/Flutter.framework
+macos/Flutter/Flutter.podspec
+macos/Pods/
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Web related
+web/generated_plugin_registrant.dart
+
+# Misc
+*.iml
+*.lock
+.idea/
+.DS_Store
+.env
+*.log
+*.bak
+*.tmp
+
+# Coverage
+coverage/
