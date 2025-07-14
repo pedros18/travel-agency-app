@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:learning_app/screens/all_tickets.dart';
 import 'package:learning_app/screens/home_screen.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Home(),
+  runApp(MaterialApp(
+    home: const Home(),
     debugShowCheckedModeBanner: false,
+    routes: {
+      "all_tickets": (context) => const AllTickets(),
+},
   ));
 }
 
@@ -28,7 +32,6 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
@@ -60,6 +63,7 @@ class _HomeState extends State<Home> {
           ),
         ],
       ),
+
     );
   }
 }

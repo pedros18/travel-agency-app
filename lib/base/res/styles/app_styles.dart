@@ -15,6 +15,8 @@ class AppStyles {
   TextStyle(fontSize: 21, fontWeight: FontWeight.bold, color: textColor);
   static TextStyle headLineStyle3 =
   TextStyle(fontSize: 17, fontWeight: FontWeight.w500, color: textColor);
+  static TextStyle headLineStyle4 =
+  TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: textColor);
 
   static TextStyle textStyle =
   TextStyle(fontSize: 14, color: textColor,fontWeight: FontWeight.w500);
